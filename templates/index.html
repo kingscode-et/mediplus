@@ -1,0 +1,668 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="Site keywords here">
+	<meta name="description" content="">
+	<meta name='copyright' content=''>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Title -->
+	<title>Mediplus - Free Medical and Doctor Directory HTML Template.</title>
+
+	<!-- Favicon -->
+	<link rel="icon" href="img/favicon.png">
+
+	<!-- Google Fonts -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+		rel="stylesheet">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+	<!-- Nice Select CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/nice-select.min.css') }}">
+	<!-- Font Awesome CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
+	<!-- icofont CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/icofont.min.css') }}">
+	<!-- Slicknav -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/slicknav.min.css') }}">
+	<!-- Owl Carousel CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/owl-carousel.min.css') }}">
+	<!-- Datepicker CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/datepicker.min.css') }}">
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/animate.min.css') }}">
+	<!-- Magnific Popup CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.min.css') }}">
+
+	<!-- Medipro CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.min.css') }}">
+
+</head>
+
+<body>
+
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="loader">
+			<div class="loader-outter"></div>
+			<div class="loader-inner"></div>
+
+			<div class="indicator">
+				<svg width="16px" height="12px">
+					<polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+					<polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+				</svg>
+			</div>
+		</div>
+	</div>
+	<!-- End Preloader -->
+
+	<!-- Header Area -->
+	<header class="header">
+		<div class="header-inner">
+			<div class="container">
+				<div class="inner">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-12">
+							<!-- Start Logo -->
+							<div class="logo">
+								<a href="index.html"><img src="http://localhost:8000/logo.png" alt="#"></a>
+							</div>
+							<!-- End Logo -->
+							<!-- Mobile Nav -->
+							<div class="mobile-nav"></div>
+							<!-- End Mobile Nav -->
+						</div>
+						<div class="col-lg-7 col-md-9 col-12">
+							<!-- Main Menu -->
+							<div class="main-menu">
+								<nav class="navigation">
+									<ul class="nav menu">
+										<li class="active"><a href="#">Home </a> </li>
+										<li><a href="/about">About us</a></li>
+										<li><a href="/services">Services </a></li>
+										<li><a href="#">Blogs <i class="icofont-rounded-down"></i></a>
+											<ul class="dropdown">
+												<li><a href="blog-single.html">Blog Details</a></li>
+											</ul>
+										</li>
+										<li><a href="/contact">Contact Us</a></li>
+									</ul>
+								</nav>
+							</div>
+							<!--/ End Main Menu -->
+						</div>
+						<div class="col-lg-2 col-12">
+							<div class="get-quote">
+								<a href="/register" class="btn">Register</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/ End Header Inner -->
+	</header>
+	<!-- End Header Area -->
+
+	<!-- Slider Area -->
+	<section class="slider">
+		<div class="hero-slider">
+			<!-- Start Single Slider -->
+			<div class="single-slider" style="background-image:url('http://localhost:8000/slider2.jpg')">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-7">
+							<div class="text">
+								<h1>We Provide <span> AI Medical</span> Services That You Can <span>Trust!</span></h1>
+								<p>Mediplus is the best and the first AI medical system in Ethiopia with large dataset
+									and fast processing, created by an Ethiopian teenager named Azariyas.</p>
+								<div class="button">
+									<a href="#" class="btn">Register</a>
+									<a href="#" class="btn primary">Learn More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Single Slider -->
+			<!-- Start Single Slider -->
+			<div class="single-slider" style="background-image:url('http://localhost:8000/slider.jpg')">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-7">
+							<div class="text">
+								<h1>We Provide <span>Medical</span> Services That You Can <span>Trust!</span></h1>
+								<p>Mediplus is the best and the first AI medical system in Ethiopia with large dataset
+									and fast processing, created by an Ethiopian teenager named Azariyas. </p>
+								<div class="button">
+									<a href="#" class="btn">Register</a>
+									<a href="#" class="btn primary">About Us</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Start End Slider -->
+			<!-- Start Single Slider -->
+			<div class="single-slider" style="background-image:url('http://localhost:8000/slider3.jpg')">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-7">
+							<div class="text">
+								<h1>We Provide <span>Medical</span> Services That You Can <span>Trust!</span></h1>
+								<p>Mediplus is the best and the first AI medical system in Ethiopia with large dataset
+									and fast processing, created by an Ethiopian teenager named Azariyas. </p>
+								<div class="button">
+									<a href="#" class="btn">Register</a>
+									<a href="#" class="btn primary">Conatct Now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Single Slider -->
+		</div>
+	</section>
+	<!--/ End Slider Area -->
+
+	<!-- Start Schedule Area -->
+	<section class="schedule">
+		<div class="container">
+			<div class="schedule-inner">
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-12 ">
+						<!-- single-schedule -->
+						<div class="single-schedule first">
+							<div class="inner">
+								<div class="icon">
+									<i class="fa fa-ambulance"></i>
+								</div>
+								<div class="single-content">
+									<h4>Prediction from symptoms</h4>
+									<p>Our system predict your disease from only your symptoms with high accuracy from
+										246,000~ sample</p>
+									<a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-12">
+						<!-- single-schedule -->
+						<div class="single-schedule middle">
+							<div class="inner">
+								<div class="icon">
+									<i class="icofont-prescription"></i>
+								</div>
+								<div class="single-content">
+									<h4>X-ray recognition</h4>
+									<p>Our system read your X-ray, CTscan AND MRI with high accuracy by comparing with
+										more than 4000 images</p>
+									<a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12 col-12">
+						<!-- single-schedule -->
+						<div class="single-schedule last">
+							<div class="inner">
+								<div class="icon">
+									<i class="icofont-ui-clock"></i>
+								</div>
+								<div class="single-content">
+									<h4>Recommendation for</h4>
+									<ul class="time-sidual">
+										<li class="day">Medications</li>
+										<li class="day">workouts</li>
+										<li class="day">diets</li>
+									</ul>
+									<a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/End Start schedule Area -->
+
+	<!-- Start Feautes -->
+	<section class="Feautes section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="section-title">
+						<h2>We Are Always Ready to Help You & Your Family</h2>
+						<img src="http://localhost:8000/section-img.png" alt="#">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-12">
+					<!-- Start Single features -->
+					<div class="single-features">
+						<div class="signle-icon">
+							<i class="icofont icofont-ambulance-cross"></i>
+						</div>
+						<h3>Emergency Help</h3>
+						<p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
+					</div>
+					<!-- End Single features -->
+				</div>
+				<div class="col-lg-4 col-12">
+					<!-- Start Single features -->
+					<div class="single-features">
+						<div class="signle-icon">
+							<i class="icofont icofont-medical-sign-alt"></i>
+						</div>
+						<h3>Enriched Pharmecy</h3>
+						<p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
+					</div>
+					<!-- End Single features -->
+				</div>
+				<div class="col-lg-4 col-12">
+					<!-- Start Single features -->
+					<div class="single-features last">
+						<div class="signle-icon">
+							<i class="icofont icofont-stethoscope"></i>
+						</div>
+						<h3>Medical Treatment</h3>
+						<p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
+					</div>
+					<!-- End Single features -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/ End Feautes -->
+
+	<!-- Start Fun-facts -->
+	<div id="fun-facts" class="fun-facts section overlay">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-12">
+					<!-- Start Single Fun -->
+					<div class="single-fun">
+						<i class="icofont-pills"></i>
+						<div class="content">
+							<span class="counter">773</span>
+							<p>Different diseases</p>
+						</div>
+					</div>
+					<!-- End Single Fun -->
+				</div>
+				<div class="col-lg-3 col-md-6 col-12">
+					<!-- Start Single Fun -->
+					<div class="single-fun">
+						<i class="icofont-warning"></i>
+						<div class="content">
+							<span class="counter">337</span>
+							<p>symptoms</p>
+						</div>
+					</div>
+					<!-- End Single Fun -->
+				</div>
+				<div class="col-lg-3 col-md-6 col-12">
+					<!-- Start Single Fun -->
+					<div class="single-fun">
+						<i class="icofont-database"></i>
+						<div class="content">
+							<span class="counter">246,000</span>
+							<p>Samples</p>
+						</div>
+					</div>
+					<!-- End Single Fun -->
+				</div>
+				<div class="col-lg-3 col-md-6 col-12">
+					<!-- Start Single Fun -->
+					<div class="single-fun">
+						<i class="icofont-image"></i>
+						<div class="content">
+							<span class="counter">4000</span>
+							<p>images</p>
+						</div>
+					</div>
+					<!-- End Single Fun -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--/ End Fun-facts -->
+
+
+	<!-- Start service -->
+	<section class="services section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="section-title">
+						<h2>We Offer Different Services To Improve Your Health</h2>
+						<img src="http://localhost:8000/section-img.png" alt="#">
+						<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-12">
+					<!-- Start Single Service -->
+					<div class="single-service">
+						<i class="icofont icofont-prescription"></i>
+						<h4><a href="service-details.html">General Treatment</a></h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut
+							imperdiet. </p>
+					</div>
+					<!-- End Single Service -->
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<!-- Start Single Service -->
+					<div class="single-service">
+						<i class="icofont icofont-tooth"></i>
+						<h4><a href="service-details.html">Teeth Whitening</a></h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut
+							imperdiet. </p>
+					</div>
+					<!-- End Single Service -->
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<!-- Start Single Service -->
+					<div class="single-service">
+						<i class="icofont icofont-heart-alt"></i>
+						<h4><a href="service-details.html">Heart Surgery</a></h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut
+							imperdiet. </p>
+					</div>
+					<!-- End Single Service -->
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<!-- Start Single Service -->
+					<div class="single-service">
+						<i class="icofont icofont-listening"></i>
+						<h4><a href="service-details.html">Ear Treatment</a></h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut
+							imperdiet. </p>
+					</div>
+					<!-- End Single Service -->
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<!-- Start Single Service -->
+					<div class="single-service">
+						<i class="icofont icofont-eye-alt"></i>
+						<h4><a href="service-details.html">Vision Problems</a></h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut
+							imperdiet. </p>
+					</div>
+					<!-- End Single Service -->
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<!-- Start Single Service -->
+					<div class="single-service">
+						<i class="icofont icofont-blood"></i>
+						<h4><a href="service-details.html">Blood Transfusion</a></h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut
+							imperdiet. </p>
+					</div>
+					<!-- End Single Service -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/ End service -->
+
+
+
+
+	<!-- Start Blog Area -->
+	<section class="blog section" id="blog">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="section-title">
+						<h2>Keep up with Our Most Recent Medical News.</h2>
+						<img src="http://localhost:8000/section-img.png" alt="#">
+						<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-12">
+					<!-- Single Blog -->
+					<div class="single-news">
+						<div class="news-head">
+							<img src="http://localhost:8000/blog1.jpg" alt="#">
+						</div>
+						<div class="news-body">
+							<div class="news-content">
+								<div class="date">22 Aug, 2020</div>
+								<h2><a href="blog-single.html">We have annnocuced our new product.</a></h2>
+								<p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do
+									eiusmod tempor incididunt sed do incididunt sed.</p>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Blog -->
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<!-- Single Blog -->
+					<div class="single-news">
+						<div class="news-head">
+							<img src="http://localhost:8000/blog2.jpg" alt="#">
+						</div>
+						<div class="news-body">
+							<div class="news-content">
+								<div class="date">15 Jul, 2020</div>
+								<h2><a href="blog-single.html">Top five way for solving teeth problems.</a></h2>
+								<p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do
+									eiusmod tempor incididunt sed do incididunt sed.</p>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Blog -->
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<!-- Single Blog -->
+					<div class="single-news">
+						<div class="news-head">
+							<img src="http://localhost:8000/blog3.jpg" alt="#">
+						</div>
+						<div class="news-body">
+							<div class="news-content">
+								<div class="date">05 Jan, 2020</div>
+								<h2><a href="blog-single.html">We provide highly business soliutions.</a></h2>
+								<p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do
+									eiusmod tempor incididunt sed do incididunt sed.</p>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Blog -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Blog Area -->
+
+	<!-- Start Newsletter Area -->
+	<section class="newsletter section">
+		<div class="container">
+			<div class="row ">
+				<div class="col-lg-6  col-12">
+					<!-- Start Newsletter Form -->
+					<div class="subscribe-text ">
+						<h6>Sign up for newsletter</h6>
+						<p class="">Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu,<br> homero alterum.</p>
+					</div>
+					<!-- End Newsletter Form -->
+				</div>
+				<div class="col-lg-6  col-12">
+					<!-- Start Newsletter Form -->
+					<div class="subscribe-form ">
+						<form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
+							<input name="EMAIL" placeholder="Your email address" class="common-input"
+								onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'"
+								required="" type="email">
+							<button class="btn">Subscribe</button>
+						</form>
+					</div>
+					<!-- End Newsletter Form -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /End Newsletter Area -->
+
+	<!-- Footer Area -->
+    <footer id="footer" class="footer ">
+        <!-- Footer Top -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-footer">
+                            <h2>About Us</h2>
+                            <p>Medi-plus is an AI system that predicts yout diseases from your symptoms</p>
+                            <!-- Social -->
+                            <ul class="social">
+                                <li><a href="#"><i class="icofont-facebook"></i></a></li>
+                                <li><a href="#"><i class="icofont-google-plus"></i></a></li>
+                                <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                                <li><a href="#"><i class="icofont-vimeo"></i></a></li>
+                                <li><a href="#"><i class="icofont-pinterest"></i></a></li>
+                            </ul>
+                            <!-- End Social -->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-footer f-link">
+                            <h2>Quick Links</h2>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <ul>
+                                        <li><a href="index.html"><i class="fa fa-caret-right"
+                                                    aria-hidden="true"></i>Home</a></li>
+                                        <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>About Us</a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Services</a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-caret-right"
+                                                    aria-hidden="true"></i>Developer</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-caret-right"
+                                                    aria-hidden="true"></i>Consuling</a></li>
+                                        <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Finance</a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-caret-right"
+                                                    aria-hidden="true"></i>Testimonials</a></li>
+                                        <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQ</a></li>
+                                        <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact
+                                                Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-footer">
+                            <h2>SERVICES</h2>
+                            <p>Always we honor to serve you.</p>
+                            <ul class="time-sidual">
+                                <li class="day">X-ray recognition</li>
+                                <li class="day">diseases prediction </li>
+                                <li class="day"> storing medical data</li>
+                            </ul>
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-footer">
+                            <h2>Newsletter</h2>
+                            <p>subscribe to our newsletter to get allour news in your inbox.. Lorem ipsum dolor sit
+                                amet, consectetur adipisicing elit,</p>
+                            <form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
+                                <input name="email" placeholder="Email Address" class="common-input"
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'"
+                                    required="" type="email">
+                                <button class="button"><i class="icofont icofont-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Top -->
+        <!-- Copyright -->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-12">
+                        <div class="copyright-content">
+                            <p>© Copyright 2025 | All Rights Reserved by KINGS CODE ETHIOPIA </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Copyright -->
+    </footer>
+    <!--/ End Footer Area -->
+
+	<!-- jquery Min JS -->
+	<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+	<!-- jquery Migrate JS -->
+	<script src="{{ url_for('static', filename='js/jquery-migrate-3.0.0.js') }}"></script>
+	<!-- jquery Ui JS -->
+	<script src="{{ url_for('static', filename='js/jquery-ui.min.js') }}"></script>
+	<!-- Easing JS -->
+	<script src="{{ url_for('static', filename='js/easing.js') }}"></script>
+	<!-- Color JS -->
+	<script src="{{ url_for('static', filename='js/colors.js') }}"></script>
+	<!-- Popper JS -->
+	<script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+	<!-- Bootstrap Datepicker JS -->
+	<script src="{{ url_for('static', filename='js/bootstrap-datepicker.js') }}"></script>
+	<!-- Jquery Nav JS -->
+	<script src="{{ url_for('static', filename='js/jquery.nav.js') }}"></script>
+	<!-- Slicknav JS -->
+	<script src="{{ url_for('static', filename='js/slicknav.min.js') }}"></script>
+	<!-- ScrollUp JS -->
+	<script src="{{ url_for('static', filename='js/jquery.scrollUp.min.js') }}"></script>
+	<!-- Niceselect JS -->
+	<script src="{{ url_for('static', filename='js/niceselect.js') }}"></script>
+	<!-- Tilt Jquery JS -->
+	<script src="{{ url_for('static', filename='js/tilt.jquery.min.js') }}"></script>
+	<!-- Owl Carousel JS -->
+	<script src="{{ url_for('static', filename='js/owl-carousel.js') }}"></script>
+	<!-- counterup JS -->
+	<script src="{{ url_for('static', filename='js/jquery.counterup.min.js') }}"></script>
+	<!-- Steller JS -->
+	<script src="{{ url_for('static', filename='js/steller.js') }}"></script>
+	<!-- Wow JS -->
+	<script src="{{ url_for('static', filename='js/wow.min.js') }}"></script>
+	<!-- Magnific Popup JS -->
+	<script src="{{ url_for('static', filename='js/jquery.magnific-popup.min.js') }}"></script>
+	<!-- Counter Up CDN JS -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+	<!-- Main JS -->
+	<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+	<script src="{{ url_for('static', filename='js/map-active.js') }}"></script>
+</body>
+
+</html>
